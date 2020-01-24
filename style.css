@@ -1,0 +1,133 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.body{
+	font-size: 18px;
+	overflow-x:hidden;
+	color: white;
+	height: 20%;
+
+}
+nav{
+	background: black;
+	height: 115px;
+
+}
+
+.main_content{
+background-image:url(img/back.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	height: 68vh;
+
+}
+.Login{
+
+	width: 50%;
+	height:auto;
+	float: left;
+	padding-left: 700px;
+	padding-top: 200px;
+	
+}
+.register{
+	width: 50%;
+	height: auto;
+	float: left;
+	padding-top: 200px;
+	
+}
+
+
+
+
+
+.row{
+	max-width: 1180px;
+	margin: 0 auto;
+
+
+}
+.logo{
+	background: black;
+	height: 105px;
+	width: 250px;
+	float: left;
+	margin: 10px 0 0 -145px;
+	float-size:100%;
+	
+
+}
+.logo img
+{
+	height: 105px;
+	width:250px;
+}
+.main-nav{
+	float:right;
+	margin-top:60px; 
+}
+.main-nav li{
+	display: inline-block;
+	list-style:none;
+	margin-left: 40px;
+
+}
+.main-nav li a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size:100%;
+	font-weight: 150;
+
+
+}
+
+
+
+
+
+
+#footer{
+	width: 100%;
+	float: left;
+	padding:10px;
+	}
+
+.social{
+	float:right;
+	margin left:40px;
+	height: 10px;
+	background-color: white;
+	margin-top:-100px;
+}
+ .social img{
+
+	height: 35px;
+	border: 3px solid;
+	margin-top: 18px;
+	
+}
+
+
+
+.login1{
+	display: none;
+	width: 100%;
+	height: 100%;
+	
+	position: fixed;
+	top:0;
+	right:0;
+
+}
+.form{
+	width: auto;
+	height: 100%;
+	padding: 200px;
+	background: rgb(0,0,0);
+	background: rgb(0,0,0,0.5);
+}
